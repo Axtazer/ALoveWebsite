@@ -1,0 +1,24 @@
+{
+  "name": "vite-vue-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "js-confetti": "^0.11.0",
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0",
+    "vite": "^2.4.4"
+  }
+}
