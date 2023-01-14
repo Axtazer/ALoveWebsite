@@ -59,7 +59,7 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0')
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
 * {
   font-family: 'BioRhyme', serif;
   font-size: 18px;
