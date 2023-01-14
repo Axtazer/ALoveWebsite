@@ -52,14 +52,13 @@ export default {
   <ul>
     <li v-for="todo in todos" :key="todo.id">
       {{ todo.text }}
-      <button @click="removeTodo(todo)"><span class="material-symbols-outlined"></span></button>
+      <button @click="removeTodo(todo)">X</button>
     </li>
   </ul>
 </template>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
 * {
   font-family: 'BioRhyme', serif;
   font-size: 18px;
