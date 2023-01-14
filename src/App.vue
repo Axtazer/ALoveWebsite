@@ -32,6 +32,7 @@ export default {
 </script>
 
 <template>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
  (THIS PEOPLE)<br />
  <img src="https://cdn.discordapp.com/attachments/889957209537138819/1063793011290550302/photo_bgax_de_moi.jpg" height=400 width=600>
