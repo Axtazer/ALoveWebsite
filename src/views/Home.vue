@@ -32,6 +32,11 @@ export default {
 </script>
 
 <template>
+  <div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/fun">Fun</router-link>
+  </div>
+  <router-view/>
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
  (THIS PEOPLE)<br />
  <img src="https://cdn.discordapp.com/attachments/889957209537138819/1063793011290550302/photo_bgax_de_moi.jpg" height=400 width=600>
