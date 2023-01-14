@@ -12,3 +12,6 @@ export default {
   <router-view/>
     <h1> Blu </h1>
 </template>
+
+<style>
+</style>
