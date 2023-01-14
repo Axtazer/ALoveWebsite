@@ -52,7 +52,7 @@ export default {
   <ul>
     <li v-for="todo in todos" :key="todo.id">
       {{ todo.text }}
-      <button @click="removeTodo(todo)">X</button>
+      <button @click="removeTodo(todo)"><span class="material-symbols-outlined"></span></button>
     </li>
   </ul>
 </template>
