@@ -7,11 +7,13 @@ const routes = [
     name: 'Home',
     //component: 'Home'
     component: () => import('../components/Home.vue'),
+    meta: { title: 'A Love Website - Acceuil' }, // <- I would to use this one
   },
   {
     path: '/ALoveWebsite/fun',
     name: 'Fun',
     component: () => import('../components/Fun.vue'),
+    meta: { title: 'A Love Website - Fun' },
   },
 ]
 
