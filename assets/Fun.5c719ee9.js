@@ -1,0 +1,1 @@
+import{o as a,c as s,a as l,u as n,b as e,n as _,F as u,R as r}from"./index.4062594e.js";const c=e("p",null,"Blublublu ceci est texte",-1),o={data(){return{titleClass:"title"}}},m=Object.assign(o,{__name:"Fun",setup(i){return(t,p)=>(a(),s(u,null,[l(n(r)),e("h1",{class:_(t.titleClass="title")}," Blu ",2),c],64))}});export{m as default};
