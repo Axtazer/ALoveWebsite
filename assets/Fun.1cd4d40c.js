@@ -1,0 +1,1 @@
+import{o as t,c as s,a,u as c,F as n,b as e,R as o}from"./index.464a98f5.js";const u=e("h1",null," Blu ",-1),_=e("p",null,"Blublublu ceci est texte",-1),l={},m=Object.assign(l,{__name:"Fun",setup(r){return(i,p)=>(t(),s(n,null,[a(c(o)),u,_],64))}});export{m as default};
