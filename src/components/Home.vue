@@ -32,6 +32,7 @@ export default {
 </script>
 
 <template>
+  <router-view/> 
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
  (THIS PEOPLE)<br />
  <img src="https://cdn.discordapp.com/attachments/889957209537138819/1063793011290550302/photo_bgax_de_moi.jpg" height=400 width=600>
@@ -56,6 +57,10 @@ export default {
     </li>
   </ul>
 </template>
+
+<script setup>
+import { RouterView } from "vue-router"
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&display=swap');
