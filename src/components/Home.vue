@@ -60,5 +60,5 @@ export default {
 
 <script setup>
 import { RouterView } from "vue-router"
-import '../scss/Home.css'
+import '../css/Home.css'
 </script>

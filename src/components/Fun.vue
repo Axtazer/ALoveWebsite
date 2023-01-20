@@ -16,5 +16,5 @@ export default {
 
 <script setup>
 import { RouterView } from "vue-router"
-import '../scss/Fun.css'
+import '../css/Fun.css'
 </script>
