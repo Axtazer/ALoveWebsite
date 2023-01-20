@@ -60,19 +60,5 @@ export default {
 
 <script setup>
 import { RouterView } from "vue-router"
+import '../scss/Home.css'
 </script>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&display=swap');
-* {
-  font-family: 'BioRhyme', serif;
-  font-size: 18px;
-}
-.title {
-  color: paleturquoise;
-}
-body {
-    background-color: rgba(0, 0, 0, 0.521);
-    color: white;
-}
-</style>
