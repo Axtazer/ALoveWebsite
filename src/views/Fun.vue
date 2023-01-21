@@ -2,6 +2,8 @@
 let id = 0
 
 export default {
+  name: "Fun",
+  components: {},
   data() {
     return {
       titleClass: 'title',
@@ -27,15 +29,15 @@ export default {
     removeTodo(todo) {
       this.todos = this.todos.filter((t) => t !== todo)
     }
-  }
-}
+  },
+};
 </script>
 
 <template>
-  <router-view/> 
+ <router-view class="custom-router-view" />
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
  (THIS PEOPLE)<br />
- <img src="https://cdn.discordapp.com/attachments/889957209537138819/1063793011290550302/photo_bgax_de_moi.jpg" height=400 width=600>
+ <img src="https://cdn.discordapp.com/attachments/889957209537138819/1063793011290550302/photo_bgax_de_moi.jpg" style="max-width:30%">
  <br /> 
  <input v-model="msg" placeholder="Ton message">
   <br /><br />
@@ -58,7 +60,23 @@ export default {
   </ul>
 </template>
 
-<script setup>
-import { RouterView } from "vue-router"
-import '../css/Home.css'
-</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&family=Black+Ops+One&display=swap');
+body {
+    position: relative;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+}
+* {
+  font-family: 'BioRhyme', serif;
+  font-size: 18px;
+}
+.title {
+  color: paleturquoise;
+}
+.custom-router-view{
+   position: absolute;
+   z-index: 99;
+}
+</style>

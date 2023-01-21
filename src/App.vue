@@ -1,11 +1,40 @@
 <template>
-    <div class="p-4">
-        <li><router-link :to="{ name: 'Home'}">Home</router-link></li>
-        <li><router-link :to="{ name: 'Fun' }">Fun</router-link></li>
-        <router-view />
-    </div>
+  <div id="app">
+    <Navigation/>
+    <router-view class="view" />
+</div>
 </template>
 
-<script setup>
-import { RouterView, RouterLink } from "vue-router"
+<script>
+import Navigation from './components/Navigation.vue'
+export default {
+  name: "App",
+  components: {
+      Navigation,
+  },
+};
 </script>
+
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.app {
+  min-height: 100vh;
+  position: relative;
+  background-color: #f1f1f1;
+}
+.container {
+  padding: 0 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.view {
+z-index: 9999;
+}
+</style>

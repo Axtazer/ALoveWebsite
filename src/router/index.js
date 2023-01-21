@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import Home from '../components/Home.vue'
+// import Home from '../views/Home.vue'
 
 const routes = [
   {
     path: '/ALoveWebsite/',
     name: 'Home',
     //component: 'Home'
-    component: () => import('../components/Home.vue'),
+    component: () => import('../views/Home.vue'),
     meta: { title: 'A Love Website - Acceuil' }, // <- I would to use this one
   },
   {
     path: '/ALoveWebsite/fun',
     name: 'Fun',
-    component: () => import('../components/Fun.vue'),
+    component: () => import('../views/Fun.vue'),
     meta: { title: 'A Love Website - Fun' },
   },
 ]
