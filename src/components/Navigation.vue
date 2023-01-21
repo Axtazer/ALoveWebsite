@@ -3,7 +3,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <nav>
             <div class="branding">
-                <img class="logo" :style="imgStyle" src="" alt="logo">
+                <img class="logo" :style="imgStyle" src="../assets/Logo.png" alt="logo">
             </div>
             <ul v-show="!mobile" class="navigation">
                 <li class="link"><router-link class="link" :to="{ name: 'Home'}">Home</router-link></li>

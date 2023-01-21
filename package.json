@@ -1,6 +1,6 @@
 {
   "name": "alovewebsite",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -17,22 +17,5 @@
     "@vitejs/plugin-vue-jsx": "^3.0.0",
     "sass": "^1.57.1",
     "vite": "^4.0.0"
-  },
-  "description": "This is a project template using [Vite](https://vitejs.dev/). It requires [Node.js](https://nodejs.org) v12+.",
-  "main": "vite.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Axtazer/ALoveWebsite.git"
-  },
-  "author": "Axtazer",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Axtazer/ALoveWebsite/issues"
-  },
-  "homepage": "https://github.com/Axtazer/ALoveWebsite#readme",
-  "keywords": [
-    "website",
-    "vuejs",
-    "vite"
-  ]
+  }
 }

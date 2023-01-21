@@ -1,5 +1,4 @@
 <script>
-
 let id = 0
 
 export default {
@@ -35,7 +34,6 @@ export default {
 </script>
 
 <template>
- <br/><br/><br/>
  <router-view class="custom-router-view" />
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
  (THIS PEOPLE)<br />
