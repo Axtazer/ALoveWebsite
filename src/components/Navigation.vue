@@ -48,7 +48,6 @@ export default {
         toggleMobileNav() {
             this.mobileNav = !this.mobileNav;
         },
-
         updateScroll() {
             const scrollPosition = window.scrollY;
             if (scrollPosition > 50) {
@@ -57,7 +56,6 @@ export default {
             }
             this.scrolledNav = false;
         },
-
         checkScreen(){
             this.windowWidth = window.innerWidth;
             if (this.windowWidth <= 750){
@@ -68,17 +66,16 @@ export default {
             this.mobileNav = false;
             return;
         },
-        computed: {
+    },
+    computed: {
             imgStyle() {
                 if (window.innerWidth < 768) {
-                    return {width: '100%', height: 'auto'}
+                return { width: '100%', height: 'auto', 'object-fit': 'cover' }
+                } else {
+                return { width: '60px', height: '60px', 'object-fit': 'contain' }
                 }
-                else {
-                    return {width: '600px', height: '400px'}
-                }
-            }
+            },
         },
-    },
 };
 </script>
 
@@ -180,7 +177,7 @@ header {
             width: 100%;
             max-width: 250px;
             height: 100%;
-            background-color: #fff;
+            background-color: rgb(150, 150, 150);
             top: 0;
             left: 0;
 
