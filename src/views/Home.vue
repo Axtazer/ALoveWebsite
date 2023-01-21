@@ -2,7 +2,7 @@
   <div class="home">
     <section class="hero">
       <div class="hero-text container">
-        <h4>A Love Website for because</h4>
+        <h4>A Love Website for U because</h4>
         <hr />
         <h2>
           I Love
@@ -45,21 +45,21 @@ export default {
     }
     h2 {
       font-size: 50px;
-      color: rgb(225, 107, 255);
+      color: rgb(156, 79, 219);
       @media (min-width: 550px) {
         font-size: 80px;
       }
     }
     .redheart {
-        color: red;
+        color: rgb(204, 60, 149);
       }
     hr:nth-child(2) {
-      max-width: 350px;
+      max-width: 365px;
       margin-bottom: 16px;
     }
     hr:nth-child(4) {
       height: 6px;
-      background-color: #fff;
+      background-color: rgb(156, 79, 219);
       border: none;
       max-width: 100px;
       margin-top: 16px;
