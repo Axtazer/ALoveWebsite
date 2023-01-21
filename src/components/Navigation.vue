@@ -3,7 +3,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <nav>
             <div class="branding">
-                <img src="../assets/Logo.jpg" alt="">
+                <img class="logo" :style="imgStyle" src="../assets/Logo.png" alt="logo">
             </div>
             <ul v-show="!mobile" class="navigation">
                 <li class="link"><router-link class="link" :to="{ name: 'Home'}">Home</router-link></li>
@@ -67,7 +67,17 @@ export default {
             this.mobile = false;
             this.mobileNav = false;
             return;
-        }
+        },
+        computed: {
+            imgStyle() {
+                if (window.innerWidth < 768) {
+                    return {width: '100%', height: 'auto'}
+                }
+                else {
+                    return {width: '600px', height: '400px'}
+                }
+            }
+        },
     },
 };
 </script>
@@ -91,6 +101,14 @@ header {
         margin: 0 auto;
         @media(min-width: 1140px) {
             max-width: 1140px;
+        }
+
+        .logo {
+            pointer-events: none;
+            object-fit: cover;
+            transform: scale(1.5);
+            width: 100%;
+            height: 100%;
         }
 
         ul, 

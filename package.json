@@ -29,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/Axtazer/ALoveWebsite/issues"
   },
-  "homepage": "https://github.com/Axtazer/ALoveWebsite#readme"
+  "homepage": "https://github.com/Axtazer/ALoveWebsite#readme",
+  "keywords": [
+    "website",
+    "vuejs",
+    "vite"
+  ]
 }
