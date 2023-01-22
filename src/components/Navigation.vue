@@ -177,7 +177,7 @@ header {
             flex-direction: column;
             position: fixed;
             width: 100%;
-            max-width: 250px;
+            max-width: 150px;
             height: 100%;
             background-color: rgb(150, 150, 150);
             top: 0;
@@ -197,7 +197,7 @@ header {
 
         .mobile-nav-enter-from,
         .mobile-nav-leave-to {
-            transform: translateX(-250px);
+            transform: translateX(-150px);
         }
 
         .mobile-nav-enter-to {

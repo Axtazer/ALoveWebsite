@@ -1,5 +1,5 @@
 <script>
-let id = 0
+var id = 0
 
 export default {
   name: "Fun",
@@ -34,9 +34,9 @@ export default {
 </script>
 
 <template>
-  <br/>
-  <br/>
-  <br/>
+  <br />
+  <br />
+  <br />
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
  (THIS PEOPLE)<br />
  <img src="https://cdn.discordapp.com/attachments/889957209537138819/1063793011290550302/photo_bgax_de_moi.jpg" style="max-width:30%">
