@@ -72,7 +72,7 @@ export default {
     computed: {
             imgStyle() {
                 if (window.innerWidth < 768) {
-                return { width: '100%', height: 'auto', 'object-fit': 'cover' }
+                return { width: '15%', height: 'auto', 'object-fit': 'cover' }
                 } else {
                 return { width: '60px', height: '60px', 'object-fit': 'contain' }
                 }
