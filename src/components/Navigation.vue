@@ -8,6 +8,7 @@
             <ul v-show="!mobile" class="navigation">
                 <li class="link"><router-link class="link" :to="{ name: 'Home'}">Home</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Fun</router-link></li>
+                <li class="link"><router-link class="link" :to="{ name: 'chatgpt'}">Par Chat-GPT</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun'}">Je t'aime</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Photos</router-link></li>
             </ul>
@@ -18,6 +19,7 @@
               <ul v-show="mobileNav" class="dropdown-nav">
                 <li class="link"><router-link class="link" :to="{ name: 'Home'}">Home</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Fun</router-link></li>
+                <li class="link"><router-link class="link" :to="{ name: 'chatgpt'}">Par Chat-GPT</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun'}">Je t'aime</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Photos</router-link></li>
               </ul>

@@ -15,6 +15,12 @@ const routes = [
     component: () => import('../views/Fun.vue'),
     meta: { title: 'A Love Website - Fun' },
   },
+  {
+    path: '/ALoveWebsite/chatgpt',
+    name: 'chatgpt',
+    component: () => import('../views/ChatGPT.vue'),
+    meta: { title: 'A Love Website - ChatGPT'}
+  },
 ]
 
 const router = createRouter({
