@@ -19,8 +19,21 @@ const routes = [
     path: '/ALoveWebsite/chatgpt',
     name: 'chatgpt',
     component: () => import('../views/ChatGPT.vue'),
-    meta: { title: 'A Love Website - ChatGPT'}
+    meta: { title: 'A Love Website - ChatGPT'},
   },
+  {
+  path: '/ALoveWebsite/gallery',
+  name: 'Gallery',
+  component: () => import('../views/Gallery.vue'),
+  meta: { title: 'A Love Website - Gallery'},
+  },
+  {
+    path: '/ALoveWebsite/amour',
+    name: 'Amour',
+    component: () => import('../views/Amour.vue'),
+    meta: { title: "A Love Website - Je t'aime"},
+    },
+  
 ]
 
 const router = createRouter({

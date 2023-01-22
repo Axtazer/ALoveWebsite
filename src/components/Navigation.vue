@@ -1,6 +1,5 @@
 <template>
     <header :class="{ 'scrolled-nav' : scrolledNav }">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <nav>
             <div class="branding">
                 <img class="logo" :style="imgStyle" src="../assets/Logo.png" alt="logo">
@@ -9,8 +8,8 @@
                 <li class="link"><router-link class="link" :to="{ name: 'Home'}">Home</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Fun</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'chatgpt'}">Par Chat-GPT</router-link></li>
-                <li class="link"><router-link class="link" :to="{ name: 'Fun'}">Je t'aime</router-link></li>
-                <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Photos</router-link></li>
+                <li class="link"><router-link class="link" :to="{ name: 'Amour'}">Je t'aime</router-link></li>
+                <li class="link"><router-link class="link" :to="{ name: 'Gallery' }">Photos</router-link></li>
             </ul>
             <div class="icon">
                 <i @click="toggleMobileNav" v-show="mobile" class="material-symbols-outlined" :class="{'icon-active' : mobileNav}">menu</i>
@@ -20,8 +19,8 @@
                 <li class="link"><router-link class="link" :to="{ name: 'Home'}">Home</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Fun</router-link></li>
                 <li class="link"><router-link class="link" :to="{ name: 'chatgpt'}">Par Chat-GPT</router-link></li>
-                <li class="link"><router-link class="link" :to="{ name: 'Fun'}">Je t'aime</router-link></li>
-                <li class="link"><router-link class="link" :to="{ name: 'Fun' }">Photos</router-link></li>
+                <li class="link"><router-link class="link" :to="{ name: 'Amour'}">Je t'aime</router-link></li>
+                <li class="link"><router-link class="link" :to="{ name: 'Gallery' }">Photos</router-link></li>
               </ul>
             </transition>
         </nav>
@@ -82,9 +81,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap');
 header {
     background-color: rgba(0, 0, 0, 0.8);
-    z-index: 99;
+    z-index: 9999 !important;
     width: 100%;
     position: fixed;
     transition: .5s ease all;
@@ -116,6 +116,7 @@ header {
             color: #fff;
             list-style: none;
             text-decoration: none;
+            font-family: 'Chakra Petch', sans-serif;
         }
 
 
