@@ -38,7 +38,7 @@ export default {
   <br />
   <br />
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
- (THIS PEOPLE)<br />
+ (THIS PEOPLE) photo changé pour anonymat<br />
  <img src="https://img.freepik.com/vecteurs-premium/profil-silhouette-homme-avatar-masculin-icone-anonyme-visage-censure_434359-85.jpg" style="max-width:30%">
  <br /> 
  <input v-model="msg" placeholder="Ton message">
