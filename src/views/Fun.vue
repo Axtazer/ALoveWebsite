@@ -39,7 +39,7 @@ export default {
   <br />
  <h1 :class="titleClass" style="font-family: 'Bungee Shade'">Je t'aime</h1>
  (THIS PEOPLE)<br />
- <img src="https://cdn.discordapp.com/attachments/889957209537138819/1063793011290550302/photo_bgax_de_moi.jpg" style="max-width:30%">
+ <img src="https://img.freepik.com/vecteurs-premium/profil-silhouette-homme-avatar-masculin-icone-anonyme-visage-censure_434359-85.jpg" style="max-width:30%">
  <br /> 
  <input v-model="msg" placeholder="Ton message">
   <br /><br />
