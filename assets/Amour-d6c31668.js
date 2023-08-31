@@ -1,1 +1,0 @@
-import{_ as e,o,c as s,b as t}from"./index-7fe5a9cf.js";const _={name:"Amour",components:{}},c={class:"amour"},n=t("h1",{class:"amour-text"}," Amour ICI ",-1),a=[n];function r(m,u,d,p,i,l){return o(),s("div",c,a)}const h=e(_,[["render",r]]);export{h as default};
