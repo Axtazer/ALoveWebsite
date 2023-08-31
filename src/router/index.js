@@ -3,32 +3,32 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/ALoveWebsite/',
+    path: '/',
     name: 'Home',
     //component: 'Home'
     component: () => import('../views/Home.vue'),
     meta: { title: 'A Love Website - Acceuil' }, // <- I would to use this one
   },
   {
-    path: '/ALoveWebsite/fun',
+    path: '/fun',
     name: 'Fun',
     component: () => import('../views/Fun.vue'),
     meta: { title: 'A Love Website - Fun' },
   },
   {
-    path: '/ALoveWebsite/chatgpt',
+    path: '/chatgpt',
     name: 'chatgpt',
     component: () => import('../views/ChatGPT.vue'),
     meta: { title: 'A Love Website - ChatGPT'},
   },
   {
-  path: '/ALoveWebsite/gallery',
+  path: '/gallery',
   name: 'Gallery',
   component: () => import('../views/Gallery.vue'),
   meta: { title: 'A Love Website - Gallery'},
   },
   {
-    path: '/ALoveWebsite/amour',
+    path: '/amour',
     name: 'Amour',
     component: () => import('../views/Amour.vue'),
     meta: { title: "A Love Website - Je t'aime"},
